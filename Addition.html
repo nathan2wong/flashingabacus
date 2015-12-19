@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head><link rel="stylesheet" type="text/css" href="style.css"></head>
+<body>
+	<div id = "intro">
+<h1>Addition</h1>
+<p>Click the button to display the next number to add or subtract.</p>
+
+<button onclick="Adding()">Click me!</button>
+</div>
+<p id="demo"></p>
+
+<script>
+function Adding() {
+    var x = document.getElementById("demo")
+    x.innerHTML = Math.floor((Math.random())*100);
+}
+</script>
+
+</body>
+</html>

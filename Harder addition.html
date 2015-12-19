@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head><link rel="stylesheet" type="text/css" href="style.css"></head>
+<body>
+<h1>Harder Addition</h1>
+<p>Click the button to display the next number to add or subtract.</p>
+
+<button onclick="Adding()">Click me!</button>
+
+<p id="demo"></p>
+
+<script>
+function Adding() {
+    var x = document.getElementById("demo")
+    x.innerHTML = Math.floor((Math.random())*1000)+10;
+}
+</script>
+
+</body>
+</html>
