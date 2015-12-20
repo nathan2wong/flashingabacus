@@ -8,11 +8,17 @@
 <button onclick="Adding()">Click me!</button>
 
 <p id="demo"></p>
+<p id="answer"></p>
+
 
 <script>
+var sum = 0;
 function Adding() {
     var x = document.getElementById("demo")
-    x.innerHTML = Math.floor((Math.random())*1000)+10;
+    var pop = Math.floor((Math.random())*1000)+10;
+    sum += pop;
+    x.innerHTML = pop;
+    document.getElementById("answer").innerHTML = sum;
 }
 </script>
 
