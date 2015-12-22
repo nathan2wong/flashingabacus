@@ -2,7 +2,7 @@
 <html>
     <head><link rel="stylesheet" type="text/css" href="style.css"></head>
 <body>
-<h1>Comprehensive Addition</h1>
+<h1>Comprehensive Addition/Subtraction</h1>
 <p>Click the button to display the next number to add or subtract.</p>
 
 <button onclick="timr()">Click me!</button>
@@ -34,7 +34,7 @@ function timr(){
 function Adding() {
     var x = document.getElementById("demo")
     var y = document.getElementById("digits").value
-    var pop = Math.floor(Math.random()*(Math.pow(10,y)-Math.pow(10,(y-1)))+Math.pow(10,(y-1)));
+    var pop = ((Math.round(Math.random())*2)-1)*(Math.floor(Math.random()*(Math.pow(10,y)-Math.pow(10,(y-1)))+Math.pow(10,(y-1))));
     sum += pop;
     x.innerHTML = pop;
     //document.getElementById("answer").innerHTML = "";
