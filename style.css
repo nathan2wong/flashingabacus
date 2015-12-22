@@ -12,12 +12,15 @@
 #intro {
 }
 button {
-    padding-bottom:10px;
-    padding-top:10px;
+    margin:auto;
+    padding-bottom:5px;
+    padding-top:5px;
     color:black;
     background-color:#EFFF99;
     border-color:#2700FF;
-    font-size:40px;
+    font-size:25px;
+    border-width:thin;
+    width:50%;
 }
 button:focus {
     color:white;
@@ -26,9 +29,13 @@ button:focus {
 }
 h1 {
     font-size:50px;
+    margin:0;
+    font-weight:bolder;
 }
 p {
     font-size:20px;
+    margin-top:0.5px;
+    color:green;
 }
 a {
     text-decoration:none;
@@ -41,12 +48,40 @@ a:hover{
 h2 {
     font-size:40px;
 }
+span {
+    font-size:15px;
+    
+}
 input {
-    height:40px;
-    font-size:30px;
-    border-width:thick;
+    margin:auto;
+    height:30px;
+    font-size:20px;
+    border-width:thin;
     background-color:palegoldenrod;
+    width:30%;
+        display:block;
+    text-align:center;
+    
 }
 div.answer {
     margin-bottom:-300px;
+}
+#answercheck {
+    background-color:white;
+    border-color:black;
+}
+#answercheck:focus {
+    color:white;
+    background-color:black;
+    transition:0.2s;
+}
+.footer {
+    margin:auto;
+    position:absolute;
+    height:60px;
+    bottom:0;
+    background-color:transparent;
+}
+.wrapper {
+    min-height:100%;
 }
