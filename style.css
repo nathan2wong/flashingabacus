@@ -33,6 +33,7 @@ p {
 a {
     text-decoration:none;
     color:#E895A4;
+    font-size:20px;
 }
 a:hover{
     color:black;
@@ -45,4 +46,7 @@ input {
     font-size:30px;
     border-width:thick;
     background-color:palegoldenrod;
+}
+div.answer {
+    margin-bottom:-300px;
 }

@@ -30,7 +30,7 @@ function timr(){
 }
 function Adding() {
     var x = document.getElementById("demo")
-    var pop = Math.floor((Math.random())*1000)+10;
+    var pop = Math.floor(Math.random()*(1000-100))+100;
     sum += pop;
     x.innerHTML = pop;
     document.getElementById("answer").innerHTML = "";
@@ -63,6 +63,6 @@ function Check() {
 <br><br>
 <button onclick="Hiding()">Answer</button>
 
-
+<a href=index.html>Home</a>
 </body>
 </html>
