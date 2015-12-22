@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head><link rel="stylesheet" type="text/css" href="style.css"></head>
+<body>
+<h1>Comprehensive Addition</h1>
+<p>Click the button to display the next number to add or subtract.</p>
+
+<button onclick="timr()">Click me!</button>
+Duration per number (seconds)
+<input type="number" id="num" max = "3" min="0"></input>
+How many numbers?
+<input type="number" id="count" max = "15" min = "1"></input>
+How many digits?
+<input type="number" id="digits"></input>
+<div class = "answer">
+<p id="demo"></p>
+</div>
+<p id="answer"></p>
+
+<script>
+var sum = 0;
+    var count = 0;
+function timr(){
+    console.log(document.getElementById("count"))
+    
+    if(count < document.getElementById("count").value)
+    {setTimeout(Adding, document.getElementById("num").value * 1000);
+    count++;
+    }
+    else{
+        count = 0;
+    }
+}
+function Adding() {
+    var x = document.getElementById("demo")
+    var y = document.getElementById("digits").value
+    var pop = Math.floor(Math.random()*(Math.pow(10,y)-Math.pow(10,(y-1)))+Math.pow(10,(y-1)));
+    sum += pop;
+    x.innerHTML = pop;
+    //document.getElementById("answer").innerHTML = "";
+    timr()
+}
+function Hiding() {
+    //if (document.getElementById("answer").innerHTML == "") {
+        alert(sum)
+         //document.getElementById("answer").innerHTML == sum;
+    
+   // }
+   // else if (document.getElementById("answer").innerHTML == sum) {
+  //         document.getElementById("answer").innerHTML = "";
+  //      console.log("bad")
+//    }
+}
+function Check() {
+    if (document.getElementById("answercheck").value == sum) {
+        confirm("congrats you got it right!");
+        console.log("ok");
+    }
+    else {
+        alert("Try again.");
+    }
+}
+function Reload() {
+    location.reload();
+}
+</script>
+<br><br>
+<input type ="number" id="answercheck"></input>
+<button onclick="Check()">Check your answer</button>
+<button onclick="Hiding()">Answer</button>
+<button onclick="Reload()">Next question &#8594; </button>
+<a href=index.html>Home</a>
+</body>
+</html>
