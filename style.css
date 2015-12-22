@@ -3,6 +3,26 @@
     width:100%;
     background-color:#CAF1F3;
 }
+a {
+    text-decoration:none;
+    color:#E895A4;
+    font-size:20px;
+}
+a:hover{
+    color:black;
+}
+#button {
+    font-color:yellow !important;
+    display:block;
+    margin:auto;
+    width:70%;
+    padding:15px;
+    text-align:center;
+    font-size:35px;
+    background-color:orange;
+    border-width:thick;
+    border-color:black;
+}
 #demo {
     text-align:center;
     font-size:300px;
@@ -37,14 +57,7 @@ p {
     margin-top:0.5px;
     color:green;
 }
-a {
-    text-decoration:none;
-    color:#E895A4;
-    font-size:20px;
-}
-a:hover{
-    color:black;
-}
+
 h2 {
     font-size:40px;
 }
@@ -76,12 +89,23 @@ div.answer {
     transition:0.2s;
 }
 .footer {
+    display:block;
     margin:auto;
-    position:absolute;
+    position:relative;
     height:60px;
     bottom:0;
     background-color:transparent;
+    padding-top:5%;
+}
+.footer a {
+    font-size:20px;
 }
 .wrapper {
     min-height:100%;
+}
+.main {
+    position:relative;
+    margin:0;
+    padding-top:8%;
+    padding-bottom:8%;
 }
