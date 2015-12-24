@@ -12,7 +12,6 @@ a:hover{
     color:black;
 }
 #button {
-    font-color:yellow !important;
     display:block;
     margin:auto;
     width:70%;
@@ -108,4 +107,13 @@ div.answer {
     margin:0;
     padding-top:8%;
     padding-bottom:8%;
+}
+select {
+    margin:auto;
+    width:40%;
+    text-align:center;
+    height:30px;
+    font-size:15px;
+    background-color:palegoldenrod;
+    
 }
