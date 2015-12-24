@@ -1,0 +1,38 @@
+<html>
+<head>
+<style>
+     body{
+            text-align: center;
+        }
+        
+        input{
+            margin-top:20px;
+            font-size:16px;
+            font-weight: bold;
+            padding:5px 10px;
+        }
+
+        #box{
+            margin:50px auto;
+            width:500px;
+            height:100px;
+            color:#fff;
+            padding:10px;
+            background: orange;
+        }
+    </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    </head>
+    <script>
+setInterval(function(){blink()}, 1000);      
+    function blink() {
+        $("#box").fadeTo(100, 0.1).fadeTo(200, 1.0);
+    }      
+</script>
+<input type="button" value="Do a blink effect" class="button"  />
+    
+    <div id="box">Box</div>
+
+
+</html>
