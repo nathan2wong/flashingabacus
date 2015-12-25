@@ -43,9 +43,9 @@ function Check() {
 function Reload() {
     location.reload();
 }
-
-setInterval(function(){blink()}, "1000");     //still needs fixing 
               
-    function blink() {
+function blink() {
+        setInterval(blink(), "1000");     //still needs fixing 
         $("#demo").fadeTo(100, 0.1).fadeTo(200, 1.0);
+        
     }
