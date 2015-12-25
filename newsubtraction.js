@@ -1,5 +1,18 @@
 var sum = 0;
     var count = 0;
+var time = document.getElementById("num");
+var realtime = time.options[time.selectedIndex].value;
+//var time = (document.getElementbyID("num") * 1000);
+
+//function gettime() {
+//console.log(time);
+//    if (time > 0) {
+//        console.log("reaching stop");
+//        clearInterval(i);
+//        return;
+//    }
+// }
+    ;
 function timr(){
     console.log(document.getElementById("count"))
     
@@ -43,9 +56,7 @@ function Check() {
 function Reload() {
     location.reload();
 }
-              
-function blink() {
-        setInterval(blink(), "1000");     //still needs fixing 
-        $("#demo").fadeTo(100, 0.1).fadeTo(200, 1.0);
-        
-    }
+
+function blink () {   
+        $("#demo").fadeTo(0, 0).fadeTo(500, 1.0);
+    }   
