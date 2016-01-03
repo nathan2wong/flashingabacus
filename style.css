@@ -5,10 +5,13 @@
 }
 .main > a {
     text-decoration:none;
-    color:red;
+    color:black;
+}
+.main > a:hover {
+    color:#FD8282;
 }
 .main > #button {
-    background-color:green;
+    background-color:#59C559;
 }
 .main > #button:hover {
     background-color:indigo;
