@@ -3,12 +3,23 @@
     width:100%;
     background-color:#CAF1F3;
 }
-a {
+.main > a {
+    text-decoration:none;
+    color:red;
+}
+.main > #button {
+    background-color:green;
+}
+.main > #button:hover {
+    background-color:indigo;
+    transition:.5s;
+}
+.footer > a {
     text-decoration:none;
     color:#E895A4;
     font-size:20px;
 }
-a:hover{
+.footer > a:hover{
     color:black;
 }
 #button {
