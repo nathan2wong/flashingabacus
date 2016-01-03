@@ -47,7 +47,7 @@ Duration per number (seconds) <br>
         <option value ="7">7 digits</option>
         </select>
         <br>
-<button onclick="timr(); setInterval(blink, 1000); console.log(time)">Click here to begin!</button> <!-- Missing clear and flexible time !-->
+<button onclick="timr(); setInterval(blink, 1000*document.getElementById('num').options[document.getElementById('num').selectedIndex].value)">Click here to begin!</button> <!-- Missing clear and flexible time !-->
 <div class = "answer">
 <p id="demo"></p>
 </div>

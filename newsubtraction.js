@@ -1,7 +1,8 @@
 var sum = 0;
     var count = 0;
-var time = document.getElementById("num");
-var realtime = time.options[time.selectedIndex].value;
+var e = document.getElementById("num");
+//var time = document.getElementById("num");
+//var realtime = time.options[time.selectedIndex].value;
 //var time = (document.getElementbyID("num") * 1000);
 
 //function gettime() {
@@ -58,5 +59,5 @@ function Reload() {
 }
 
 function blink () {   
-        $("#demo").fadeTo(0, 0).fadeTo(500, 1.0);
+        $("#demo").fadeTo(0, 0).fadeTo(100, 1);
     }   
