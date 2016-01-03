@@ -54,6 +54,7 @@ button {
     font-size:25px;
     border-width:thin;
     width:50%;
+    cursor:pointer;
 }
 button:focus {
     color:white;
