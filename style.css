@@ -61,6 +61,9 @@ button:focus {
     background-color:black;
     border-color:red;
 }
+button:hover {
+    opacity:0.8;
+}
 h1 {
     font-size:50px;
     margin:0;
