@@ -1,40 +1,41 @@
 <html>
 <head>
-<style>
-     body{
-            text-align: center;
-        }
-        
-        input{
-            margin-top:20px;
-            font-size:16px;
-            font-weight: bold;
-            padding:5px 10px;
-        }
-
-        #box{
-            margin:50px auto;
-            width:500px;
-            height:100px;
-            color:#fff;
-            padding:10px;
-            background: orange;
-        }
-    </style>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-    </head>
-    <script>
-setInterval(function(){blink()}, ;      
-    function blink() {
-        $("#box").fadeTo(0, 0).fadeTo(100, 1.0);
-    }      
-</script>
-    <input type="number" id = "num">Enter a number</input>
-<input type="button" value="Do a blink effect" class="button"  />
-    
-    <div id="box">Box</div>
-    
-
-
+<title>Send Us Email</title>
+</head>
+<body>
+<form action="form.php" method="POST">
+<p>
+<input
+name="email"
+size="64"
+maxlength="64"/>
+<b>Your</b> Email Address
+</p>
+<p>
+<input
+name="realname"
+size="64"
+maxlength="64"/>
+Your Real Name (<i>so our reply won't get stuck in your spam folder</i>)
+</p>
+<p>
+<input
+name="subject"
+size="64"
+maxlength="64"/>
+Subject Of Your Message
+</p>
+<p>
+<i>Please enter the text of your message in the field that follows.</i>
+</p>
+<textarea
+name="body"
+rows="10"
+cols="60">
+</textarea>
+<p>
+<input type="submit" name="send" value="Send Your Message"/>
+</p>
+</form>
+</body>
 </html>

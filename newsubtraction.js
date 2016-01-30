@@ -60,4 +60,5 @@ function Reload() {
 
 function blink () {   
         $("#demo").fadeTo(0, 0).fadeTo(100, 1);
+    clearInterval();
     }   
