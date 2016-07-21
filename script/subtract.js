@@ -2,7 +2,7 @@ var sum2 = 0;
     var count2 = 0;
         var meme2 = document.getElementById("demo2");
 function timr2() {
-    meme2.style.display = '';
+
     console.log(document.getElementById("count2"));
 
     if(count2 < document.getElementById("count2").value) {
@@ -10,7 +10,7 @@ function timr2() {
       count2++;
     }
     else{
-        count2 = 1;
+        count2 = 0;
     }
 }
 function Subtract() {
@@ -21,11 +21,11 @@ function Subtract() {
     x2.innerHTML = pop2;
     //document.getElementById("answer").innerHTML = "";
     timr2();
+    meme2.style.display = '';
 }
 function Reload2() {
     sum2 =0;
     console.log(sum2);
-    alert('Reset. Ready to begin the next question?');
     meme2.style.display = 'none';
   }
 function Hiding2() {
