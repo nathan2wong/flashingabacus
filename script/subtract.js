@@ -1,6 +1,7 @@
 var sum2 = 0;
     var count2 = 0;
         var meme2 = document.getElementById("demo2");
+        var test= document.getElementById("test");
 function timr2() {
 
     console.log(document.getElementById("count2"));
@@ -27,6 +28,7 @@ function Reload2() {
     sum2 =0;
     console.log(sum2);
     meme2.style.display = 'none';
+    test.style.background='white';
   }
 function Hiding2() {
     //if (document.getElementById("answer").innerHTML == "") {
@@ -41,10 +43,12 @@ function Hiding2() {
 }
 function Check2() {
     if (document.getElementById("answercheck2").value == sum2) {
+        test.style.background = 'green';
         confirm("congrats you got it right!");
         console.log("ok");
     }
     else {
         alert("Try again.");
+        test.style.background='red';
     }
 }
