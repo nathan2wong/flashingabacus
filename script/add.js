@@ -5,11 +5,12 @@ var sum = 0;
 function timr(){
   meme.style.display = '';
 
-    console.log(document.getElementById("count"))
+    console.log(document.getElementById("count"));
 
-    if(count < document.getElementById("count").value)
-    {setTimeout(Adding, document.getElementById("num").value * 1000);
+    if(count < document.getElementById("count").value) {
+    setTimeout(Adding, document.getElementById("num").value * 1000 );
     count++;
+    test();
     }
     else{
         count = 1;
