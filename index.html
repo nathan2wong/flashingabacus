@@ -120,6 +120,17 @@
                     </a>
                     <p><a href="#portfolioModal2" class="portfolio-link" data-toggle="modal" style="text-align:center">Simple Subtraction</a></p>
                 </div>
+                <div class="col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                              <p>Multiplication</p>
+                            </div>
+                        </div>
+                        <img src="img/subtract.png" class="img-responsive" alt="subtract">
+                    </a>
+                    <p><a href="#portfolioModal2" class="portfolio-link" data-toggle="modal" style="text-align:center">Multiplication</a></p>
+                </div>
               <!--
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
@@ -437,7 +448,15 @@
                                   </div>
                                   <p id="answer"></p>
                                   <br>
+                                  <div class="row">
+                                  <div class="col-md-4">
+                                  </div>
+                                  <div class="col-md-4">
                                   <input type ="number" id="answercheck2" class="form-control" style="text-align:center"></input>
+                                </div>
+                                  <div class="col-md-4">
+                                  </div>
+                                </div>
                                   <br>
                                   <button onclick="Check2()" class="btn btn-primary">Check your answer (enter above)</button>
                                   <button onclick="Hiding2()" class="btn btn-warning">Answer</button>
@@ -452,36 +471,74 @@
         </div>
     </div>
     <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
+        <div class="modal-content" id="test2">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
+            <div class="container" style="width:100%">
+                <div class="row" style="margin:0;">
+                    <div>
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Multiplication</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <div class="function">
+                                <div id="wrapper">
+                                <div id="sidebar-wrapper">
+  <div id="options">
+                                  <p>Click the button to display the next number to multiply.</p>
+
+                                  <!--<p>How many Numbers?
+                                      <select id ="num2" class="btn btn-lg">
+                                          <option value ="0.1">0.1 seconds per number</option>
+                                          <option value ="0.2">0.2 seconds per number</option>
+                                          <option value ="0.3">0.3 seconds per number</option>
+                                          <option value ="0.4">0.4 seconds per number</option>
+                                          <option value ="0.5" selected="selected">0.5 seconds per number</option>
+                                          <option value ="0.6">0.6 seconds per number</option>
+                                          <option value ="0.7">0.7 seconds per number</option>
+                                          <option value ="0.8">0.8 seconds per number</option>
+                                          <option value ="0.9">0.9 seconds per number</option>
+                                          <option value ="1">1.0 seconds per number</option>
+                                      </select></p>-->
+                                  <p>How many digits in the first number?
+                                    <select id ="digits3" class="btn">
+                                    <option value ="1">1 digit</option>
+                                    <option value ="2">2 digits</option>
+                                    <option value ="3">3 digits</option>
+                                    <option value ="4">4 digits</option>
+                                    <option value ="5">5 digits</option>
+                                  </select></p>
+                                  <p>How many digits in the second number?
+                                          <select id ="digits4" class="btn">
+                                          <option value ="1">1 digit</option>
+                                          <option value ="2">2 digits</option>
+                                          <option value ="3">3 digits</option>
+                                          <option value ="4">4 digits</option>
+                                          <option value ="5">5 digits</option>
+                                        </select></p>
+                                        </div>
+                                  <button onclick="Multiply()" class="btn btn-info ">Click here to begin!</button>
+                                  <div class = "answer" id="answer3">
+                                  <h1 id="part1" class="col-md-5" style="font-size:200px; text-align:right;"></h1>
+                                  <p id="part1.5" class="col-md-2" style="font-size:150px; text-align:center;"></p>
+                                  <h1 id="part2" class="col-md-5" style="font-size:200px; text-align:left;"></h1>
+                                </div>
+                                  <br>
+                                  <div class="col-lg-8 col-lg-offset-2">
+                                    <br>
+                                  <input type ="number" id="answercheck3" class="form-control" style="text-align:center"></input>
+                                  <br>
+                                </div>
+                                  <br>
+                                  <button onclick="Check3()" class="btn btn-primary">Check your answer (enter above)</button>
+                                  <button onclick="Hiding3()" class="btn btn-warning">Answer</button>
+                                  <button onclick="Reload3()" class="btn btn-success">Next question &#8594; </button>
+                                    </div>
+                                </div>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -620,6 +677,7 @@
     <script src="js/freelancer.min.js"></script>
     <script src="script/add.js"></script>
     <script src="script/subtract.js"></script>
+    <script src="script/multiply.js"></script>
 
 </body>
 <script>
