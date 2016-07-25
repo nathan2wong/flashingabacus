@@ -2,7 +2,7 @@ Flashing Abacus Web Application
 
 Application: http://flashingabacus.com
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mDhwXa9LqJ4" frameborder="0" allowfullscreen></iframe>
+Video Demo: https://www.youtube.com/watch?v=mDhwXa9LqJ4
 
 Please refer to the <a href="https://github.com/nathan2wong/flashingabacus/FlashingAbacusInstructions.pdf">Instruction Manual</a> on how to use this application.
 
