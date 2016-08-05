@@ -1,8 +1,10 @@
 <h1 style="text-align:center">Flashing Abacus Web Application</h1>
 
 Web Application: http://flashingabacus.com
+
 Software Releases: https://github.com/nathan2wong/flashingabacus/releases
 <br>
+
 
 <h1 style="text-align:center">Usage</h1>
 <img width="100%" src="img/demo1.gif"/>
