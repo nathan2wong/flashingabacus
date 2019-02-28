@@ -1,6 +1,6 @@
 <h1 style="text-align:center">Flashing Abacus Web Application</h1>
 
-Web Application: http://flashingabacus.com
+Web Application: https://nathan2wong.github.io/flashingabacus/
 
 Software Releases: https://github.com/nathan2wong/flashingabacus/releases
 <br>
@@ -8,7 +8,7 @@ Software Releases: https://github.com/nathan2wong/flashingabacus/releases
 
 <h1 style="text-align:center">Usage</h1>
 <img width="100%" src="img/demo1.gif"/>
-<ol> Go to the application section (http://flashingabacus.com/#portfolio).</ol>
+<ol> Go to the application (https://nathan2wong.github.io/flashingabacus/).</ol>
 <ol> Select the application that best fits what type of mental arithmetic practice you want to perform. Currently,
 Flashing Abacus supports Addition, Subtraction, Multiplication, and Division. In this tutorial, we will use addition
 as the application we want to practice with.</ol>
@@ -28,7 +28,7 @@ following steps 3-7.</ol>
 <h2 style="text-align:center">Additional Information</h2>
 Video Demo: https://www.youtube.com/watch?v=mDhwXa9LqJ4
 
-Please refer to the <a href="http://flashingabacus.com/instructions.pdf">Instruction Manual</a> for more details on how to use this application.
+Please refer to the <a href="https://github.com/nathan2wong/flashingabacus/blob/master/FlashingAbacusInstructions.pdf">Instruction Manual</a> for more details on how to use this application.
 <br>
 <h1 style="text-align:center">Future Improvements</h1>
 Need to implement:
